@@ -1,0 +1,36 @@
+Hack Challenge
+
+Todo:
+- fix Log In error
+- Fix error in CollectionView for the StudentMainView (don't understand how sections work and how that impact the indexpath)
+- fix the filtering in student view (not doing the right thing)
+- Get all posts from backend that satisfies the time filtering
+- fix the collection view cell width 
+- create borders between the tableview cells
+- fix shadow overlapping in ta view
+- fix the text alignment for textfield
+- Add course enrolled for the students
+- Add warnings when course not found when doing filtering in student view
+- remove pre-filled password field when log out of the views
+
+For connecting with backend
+- each username connected to password and certain variables: whether they are ta or student or both, what office hours they are attending (for students)
+
+problems: 
+- If TAs have the same name, their office hours will be mixed up (Unless I can make a .get request for TA's name using TA's id)
+
+Ideas for fixing: 
+createOH --> pass in the course (with id, course name, course code)
+
+
+Implemented: 
+- Decodable and Encodable for backend's models
+- UIView, UIImageView, UITextField, UILabel, etc
+- Custom UITableView with UIButton, UILabel, etc
+- Selectable UITableView to check the attendance and connect to update attendance
+- UICollectionView Filtering to filter by day of week
+- Search bar filtering to filter by course code
+- Login
+- Present/dismiss Views for editing new OHs
+- Push/pop Views for creating new OHs and sending from login screen
+- Networking API with delete, post, get, etc
