@@ -1,7 +1,7 @@
 # 4OHFrontEnd
-*Only the frontend of the app is included in this repository. For the backend code, see: https://github.com/AdityaKompella6/OfficeHourTracker*
-*The frontend and backend connection is now lost*
-*For a record simulation of the app, check: https://drive.google.com/file/d/13MEIvVqJXnyopqffxJ-wuVh48z4UfS0K/view?usp=sharing*
+*Only the frontend of the app is included in this repository. For the backend code, see: https://github.com/AdityaKompella6/OfficeHourTracker* <br />
+*The frontend and backend connection is now lost* <br />
+*For a recorded simulation of the app, please check: https://drive.google.com/file/d/13MEIvVqJXnyopqffxJ-wuVh48z4UfS0K/view?usp=sharing* <br />
 
 **Motivation**
 The purpose of this app is to help students locate and find office hours and help TAs organize and notify students about their office hours. 
